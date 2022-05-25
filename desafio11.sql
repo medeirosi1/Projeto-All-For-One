@@ -1,0 +1,1 @@
+SELECT notes FROM northwind.purchase_orders WHERE RIGHT(notes, 2) >= 30 and RIGHT(notes, 2) <= 39;
